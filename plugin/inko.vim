@@ -1,6 +1,6 @@
 
-command! EngToKor call EngToKor()
-command! KorToEng call KorToEng()
+command! -range EngToKor call EngToKor()
+command! -range KorToEng call KorToEng()
 
 function! EngToKor()
     let [line_start, coloumn_start] = getpos("'<")[1:2]
