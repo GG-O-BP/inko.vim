@@ -17,7 +17,9 @@
 <br>
 <div>사용하기 편한 키맵핑사용을 권장합니다.</div>
 <br> 
-<div>ex) xnoremap <C-K> :Inko "k"&lt;CR&gt;</div>
-<div>ex) nnoremap <C-K> V:Inko "k"&lt;CR&gt;</div>
+<div>ex) xnoremap &lt;C-E&gt; :Inko "e"&lt;CR&gt;</div>
+<div>ex) nnoremap &lt;C-E&gt; V:Inko "e"&lt;CR&gt;</div>
+<div>ex) xnoremap &lt;C-K&gt; :Inko "k"&lt;CR&gt;</div>
+<div>ex) nnoremap &lt;C-K&gt; V:Inko "k"&lt;CR&gt;</div>
 <br>
 <div>감사합니다.</div>
