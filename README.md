@@ -16,6 +16,6 @@
 <br>
 <div>사용하기 편한 키맵핑사용을 권장합니다.</div>
 <br> 
-<div>ex) xnoremap K :&lt;BS&gt;&lt;BS&gt;&lt;BS&gt;&lt;BS&gt;&lt;BS&gt;EngToKor&lt;CR&gt;</div>
+<div>ex) xnoremap K :EngToKor&lt;CR&gt;</div>
 <br>
 <div>감사합니다.</div>
