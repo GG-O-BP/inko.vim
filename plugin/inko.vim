@@ -9,7 +9,7 @@ function! s:Inko(option)
     let lines[0] = lines[0][coloumn_start - 1:]
     let txtSource = join(lines, "\n")
 
-    let result = substitute(system('inko -' . option . ' "' . txtSource . '"'), '\n$', '', '')
+    let result = substitute(system('inko -' . a:option . ' "' . txtSource . '"'), '\n$', '', '')
 
     exe "s/\\%V" . txtSource . "/" . result
 endfunction
